@@ -1,5 +1,4 @@
-my_list = ["orange", "apple", "grape", "banana"]
-my_list.sort()
-print(my_list)
-my_list.sort(reverse=True)
-print(my_list)
+title = "address"
+value = "tokyo"
+string = "{}:{}"
+print(string.format(title, value))
